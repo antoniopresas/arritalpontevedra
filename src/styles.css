@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* Header */
+body{
+  margin: 0px;
+  height: 100vh;
+
+}
+
+a{
+  padding: 0 !important;
+}
+
+.header{
+  background-color: black !important;
+  width: 100%;
+}
+
+.flex-center{
+  justify-content: center !important;
+
+}
+#navbarSupportedContent > ul.navbar-nav{
+  flex-direction: row !important;
+  justify-content: center;
+  padding: 5px 0 10px 0;
+}
+
+
+/* Home */
+
+.contenido {
+  height: 53vh;
+  width: 100%;
+}
+
+/* Integración header y home */
+
+.super {
+  height: 50vh;
+}
+
+
+/* Baño */
+
+.rounded-lg{
+  display: flexbox;
+  height: 25%;
+  width: 70%;
+  background-color:black;
+  opacity: 0.7;
+}
+
+/* Cocina */
+
+
+/* Footer */
+
+.fixed-bottom {
+  bottom: -20px !important;
+}
